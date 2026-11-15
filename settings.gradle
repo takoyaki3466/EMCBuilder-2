@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        maven { url = 'https://maven.neoforged.net/releases' }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+// EMC Builder は Re-BuildCraft (re_buildcraft) のビルダーを使うアドオン。隣のフォルダの Re-BuildCraft を複合ビルドとして取り込み、
+// build.gradle の "com.takoy3466:re_buildcraft" をそのプロジェクトに置き換える（Rebuild Compact Engine と同じ方式）。
+includeBuild('../Re-BuildCraft') {
+    dependencySubstitution {
+        substitute module('com.takoy3466:re_buildcraft') using project(':')
+    }
+}

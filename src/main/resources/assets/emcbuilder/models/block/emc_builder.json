@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "emcbuilder:block/emc_builder_top",
+    "bottom": "emcbuilder:block/emc_builder_side",
+    "side": "emcbuilder:block/emc_builder_side",
+    "front": "emcbuilder:block/emc_builder_front"
+  }
+}

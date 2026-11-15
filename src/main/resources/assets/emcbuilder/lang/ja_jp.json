@@ -1,0 +1,10 @@
+{
+  "block.emcbuilder.emc_builder": "EMCビルダー",
+  "gui.emcbuilder.emc": "%s EMC",
+  "gui.emcbuilder.emc_slot": "EMC投入口",
+  "gui.emcbuilder.emc_slot.left": "左クリック: 手持ちをすべて変換",
+  "gui.emcbuilder.emc_slot.right": "右クリック: 1個だけ変換",
+  "gui.emcbuilder.emc_slot.shift": "Shift+クリック: インベントリ内の同じアイテムをすべて変換",
+  "commands.emcbuilder.emc.show": "共有EMC: %s",
+  "commands.emcbuilder.emc.set": "共有EMCを %s にしました"
+}

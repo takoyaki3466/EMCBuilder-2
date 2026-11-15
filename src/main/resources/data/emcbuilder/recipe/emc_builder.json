@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "T",
+    "B"
+  ],
+  "key": {
+    "T": {
+      "item": "projecte:transmutation_tablet"
+    },
+    "B": {
+      "item": "re_buildcraft:builder"
+    }
+  },
+  "result": {
+    "id": "emcbuilder:emc_builder",
+    "count": 1
+  }
+}

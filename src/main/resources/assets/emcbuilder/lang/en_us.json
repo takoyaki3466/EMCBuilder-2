@@ -1,0 +1,10 @@
+{
+  "block.emcbuilder.emc_builder": "EMC Builder",
+  "gui.emcbuilder.emc": "%s EMC",
+  "gui.emcbuilder.emc_slot": "EMC input",
+  "gui.emcbuilder.emc_slot.left": "Left click: convert the held stack",
+  "gui.emcbuilder.emc_slot.right": "Right click: convert one item",
+  "gui.emcbuilder.emc_slot.shift": "Shift click: convert all matching items in your inventory",
+  "commands.emcbuilder.emc.show": "Shared EMC: %s",
+  "commands.emcbuilder.emc.set": "Shared EMC is now %s"
+}
