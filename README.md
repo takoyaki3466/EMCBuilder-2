@@ -4,6 +4,10 @@
 ### [Re-BuildCraft-Latest](https://github.com/takoyaki3466/Re-BuildCraft/releases/tag/1.3.0)
 ### [ProjectE-1.21.1-NeoForge](https://www.curseforge.com/minecraft/mc-mods/projecte/files/all?page=1&pageSize=20&version=1.21.1&showAlphaFiles=hide)
 
+<br>
+
+## 概要
+
 CompactEngine 3.1.5（BCxAddon-CE, MC 1.2.5）の **EMCビルダー** を Minecraft 1.21.1 / NeoForge 向けに移植した **Re-BuildCraft のアドオン** です。
 元実装と同じく BuildCraft（Re-BuildCraft）のビルダーを継承しており、建築そのものは BC のビルダーと同じです。
 違いは材料が足りないときに **共有EMC** から生成する点だけです。アイテムの EMC 値は **ProjectE** から取得します。
