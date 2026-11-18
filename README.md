@@ -30,11 +30,6 @@ CompactEngine 3.1.5（BCxAddon-CE, MC 1.2.5）の **EMCビルダー** を Minecr
    * 本 MOD の jar（`build/libs/emcbuilder-1.0.0.jar`）
 3. サーバーで使う場合は、サーバーとクライアントの両方に入れる。
 
-Re-BuildCraft には、EMC ビルダー用の差し替え点を追加した（`docs/SPEC.md` 参照）。追加前にビルドした `Re-BuildCraft-1.1.0.jar` では動かないため、Re-BuildCraft もビルドし直すこと。
-
-ビルド: `gradlew build`。`settings.gradle` の `includeBuild('../Re-BuildCraft')` により、隣のフォルダの Re-BuildCraft を使う。
-JDK 21 が必要で、Gradle を JDK 25 で起動すると失敗するため `JAVA_HOME` を JDK 21 にする。
-
 ## 使い方
 
 1. **設計図** を Re-BuildCraft の設計台（マーカーで範囲を指定）で作る。設計図ライブラリで複製もできる。
@@ -52,14 +47,3 @@ JDK 21 が必要で、Gradle を JDK 25 で起動すると失敗するため `JA
 
 * `/emcbuilder emc` 共有EMCを表示
 * `/emcbuilder emc set|add <量>`（OP）共有EMCを変更
-
-## 既知の制約
-
-* 元 MOD との違いと理由は [docs/SPEC.md](docs/SPEC.md) を参照。
-* ワールドの既定ゲームモードがクリエイティブだと、BC のビルダーと同じく材料も EMC も使わない。
-* 建築の細かい挙動（建てられるブロック、建築済みの判定など）は Re-BuildCraft のビルダーに従う。
-
-## 検証状況
-
-* Re-BuildCraft への依存へ切り替えた後は、ユーザーの指示によりビルド・起動・GameTest を **実行していない**（静的チェックのみ）。
-* 以前の独自実装版の GameTest は、検証対象の再実装ごと削除した。
